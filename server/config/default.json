@@ -1,0 +1,21 @@
+{
+	"broker_user": "livinglab",
+	"broker_password": "livinglab",
+	"broker_address": "10.146.42.210",
+	
+	"firedetection_virtual_topic_tecnocentro": "livinglab.sensor.firedetector.raw.virtual.raspberrypiVirtual1",
+	"firedetection_real_topic_tecnocentro": "livinglab.sensor.firedetector.raw.real.raspberrypiReal1",
+	"smartmeter_raw_topic_tecnocentro": "livinglab.sensor.smartmeter.raw.virtual.tj-virtual-meter-andar1",
+	
+	"firedetection_virtual_topic_bonfim": "livinglab.sensor.firedetector.raw.virtual.raspberrypiVirtual2",
+	"firedetection_real_topic_bonfim": "livinglab.sensor.firedetector.raw.real.raspberrypiReal2",
+	"smartmeter_raw_topic_bonfim": "livinglab.sensor.smartmeter.raw.virtual.tj-virtual-meter-andar1",
+	
+	"firedetection_virtual_topic_secti": "livinglab.sensor.firedetector.raw.virtual.raspberrypiVirtual3",
+	"firedetection_real_topic_secti": "livinglab.sensor.firedetector.raw.real.raspberrypiReal3",
+	"smartmeter_raw_topic_secti": "livinglab.sensor.smartmeter.raw.virtual.tj-virtual-meter-andar1",
+
+	"firedetection_virtual_topic_cajazeiras": "livinglab.sensor.firedetector.raw.virtual.raspberrypiVirtual4",
+	"firedetection_real_topic_cajazeiras": "livinglab.sensor.firedetector.raw.real.raspberrypiReal4",
+	"smartmeter_raw_topic_cajazeiras": "livinglab.sensor.smartmeter.raw.virtual.tj-virtual-meter-andar1"
+}
