@@ -17,5 +17,10 @@
 
 	"firedetection_virtual_topic_cajazeiras": "livinglab.sensor.firedetector.raw.virtual.raspberrypiVirtual4",
 	"firedetection_real_topic_cajazeiras": "livinglab.sensor.firedetector.raw.real.raspberrypiReal4",
-	"smartmeter_raw_topic_cajazeiras": "livinglab.sensor.smartmeter.raw.virtual.tj-virtual-meter-andar1"
+	"smartmeter_raw_topic_cajazeiras": "livinglab.sensor.smartmeter.raw.virtual.tj-virtual-meter-andar1",
+
+	"environment_change_windspeed": "livinglab.environment.change.windspeed",
+	"environment_change_weather": "livinglab.environment.change.weather",
+	"environment_change_explosion": "livinglab.environment.change.explosion",
+	"environment_change_lighting": "livinglab.environment.change.lighting"
 }

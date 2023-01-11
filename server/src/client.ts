@@ -30,7 +30,7 @@ socket.on('flameDetected-real_tecnocentro', (arg) => {
 });
 // ---
 socket.on('smartmeter-data_tecnocentro', (arg) => {
-  console.log('Print client side...smartmeter-data_tecnocentro: ', arg)
+  console.log('>>>Print client side...smartmeter-data_tecnocentro: ', arg)
 });
 // --- Secti
 socket.on('temperature-virtual_secti', (arg) => {
@@ -58,7 +58,7 @@ socket.on('flameDetected-real_secti', (arg) => {
 });
 // ---
 socket.on('smartmeter-data_secti', (arg) => {
-  console.log('Print client side...smartmeter-data_secti: ', arg)
+  console.log('>>>Print client side...smartmeter-data_secti: ', arg)
 });
 
 // --- Bonfim
@@ -87,7 +87,7 @@ socket.on('flameDetected-real_bonfim', (arg) => {
 });
 // ---
 socket.on('smartmeter-data_bonfim', (arg) => {
-  console.log('Print client side...smartmeter-data_bonfim: ', arg)
+  console.log('>>>Print client side...smartmeter-data_bonfim: ', arg)
 });
 
 // --- Cajazeiras
@@ -116,18 +116,23 @@ socket.on('flameDetected-real_cajazeiras', (arg) => {
 });
 // ---
 socket.on('smartmeter-data_cajazeiras', (arg) => {
-  console.log('Print client side...smartmeter-data_cajazeiras: ', arg)
+  console.log('>>>Print client side...smartmeter-data_cajazeiras: ', arg)
+});
+// Teste
+socket.on('environment_change_windspeed', (arg) => {
+  console.log('>>>Print client side...tenvironment_change_windspeed: ', arg)
 });
 
-// Example
-// socket.on("hello", (arg) => {
-//   console.log('Print client side ....')
-//   console.log(arg); // world
-// });
+socket.on('environment_change_weather', (arg) => {
+  console.log('>>>Print client side...environment_change_weather: ', arg)
+});
+
+socket.on('environment_change_explosion', (arg) => {
+  console.log('>>>Print client side...environment_change_explosion: ', arg)
+});
+
+socket.on('environment_change_lighting', (arg) => {
+  console.log('>>>Print client side...environment_change_lighting: ', arg)
+});
 
 console.log('Executou script ....');
-
-// testar envio das informações para o front-end >>>>>> OK
-// corrigir eventuais falhas  >>>>>> 
-// buscar material de portugues 
-// ler material lei ;;

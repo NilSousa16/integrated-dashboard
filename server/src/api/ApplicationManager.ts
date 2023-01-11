@@ -37,6 +37,14 @@ class ApplicationManager {
         MessageBrokerListener.listenToSensorMessages(config.firedetection_virtual_topic_cajazeiras, socket); 
         MessageBrokerListener.listenToSensorMessages(config.firedetection_real_topic_cajazeiras, socket);
         MessageBrokerListener.listenToSensorMessages(config.smartmeter_raw_topic_cajazeiras, socket);
+
+        // Teste
+        MessageBrokerListener.listenToSensorMessages(config.environment_change_windspeed, socket);
+        MessageBrokerListener.listenToSensorMessages(config.environment_change_weather, socket);
+        MessageBrokerListener.listenToSensorMessages(config.environment_change_explosion, socket);
+        MessageBrokerListener.listenToSensorMessages(config.environment_change_lighting, socket);
+        
+        
       });
     });
   }

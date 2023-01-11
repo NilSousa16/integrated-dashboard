@@ -21,7 +21,7 @@ class MessageProcessor {
 			socket.emit('flameDetected-real_tecnocentro', data.flameDetected);
 		} else if (sensorTopic == topicValues.smartmeter_raw_topic_tecnocentro) { // virtual smart meter message
 			socket.emit('smartmeter-data_tecnocentro', data);
-		}
+		} 
 
 		// Bonfim
 		if(sensorTopic == topicValues.firedetection_virtual_topic_bonfim) { // virtual fire detection sensor message
@@ -62,11 +62,21 @@ class MessageProcessor {
 			socket.emit('smartmeter-data_cajazeiras', data);
 		}
 
-		// console.log('>>>>>>>>Enviando para front-end ...');
+		if(sensorTopic == topicValues.environment_change_windspeed) { 
+			socket.emit('environment_change_windspeed', data);
+		}
 
-		// socket.emit('hello', 'Send message test - server side ...');
+		if(sensorTopic == topicValues.environment_change_weather) { 
+			socket.emit('environment_change_weather', data);
+		}
 
-		// console.log('>>>>>>>>Enviada para front-end ...');
+		if(sensorTopic == topicValues.environment_change_explosion) { 
+			socket.emit('environment_change_explosion', data);
+		}
+
+		if(sensorTopic == topicValues.environment_change_lighting) { 
+			socket.emit('environment_change_lighting', data);
+		}
 
 	}
 }

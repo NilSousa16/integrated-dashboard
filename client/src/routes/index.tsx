@@ -1,11 +1,11 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import Dashboard from '../pages/Dashboard';
+import _Dashboard from '../pages/_Dashboard';
 
 const RoutesApp: React.FC = () => (
   <Routes>  
-    <Route path="/" element={<Dashboard />} />    
+    <Route path="/" element={<_Dashboard />} />    
   </Routes>
 );
 

@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-import gitBackground from '../assets/gitbackground.svg';
+import logoImg from '../assets/logoParque.png';
 
 export default createGlobalStyle`
   *{
@@ -11,7 +11,8 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #f0f0f5 url(${gitBackground}) no-repeat 70% top;
+    // background: #f0f0f5 url(${logoImg}) no-repeat 70% top;
+    background: #f0f0f5;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -20,9 +21,8 @@ export default createGlobalStyle`
   }
 
   #root {
-    max-width: 960px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 40px 20px;
   }
 
   button {
